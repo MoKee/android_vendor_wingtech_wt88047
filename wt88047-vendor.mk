@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
     vendor/wingtech/wt88047/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/wingtech/wt88047/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/sensors.wt88047.so:system/vendor/lib/sensors.wt88047.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/wingtech/wt88047/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/wingtech/wt88047/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -107,7 +108,9 @@ PRODUCT_COPY_FILES += \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_common.so:system/vendor/lib/libcalmodule_common.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_gyroscope.so:system/vendor/lib/libcalmodule_gyroscope.so \
+    vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_senodia.so:system/vendor/lib/libcalmodule_senodia.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libcalmodule_yamaha.so:system/vendor/lib/libcalmodule_yamaha.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
     vendor/wingtech/wt88047/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so:system/vendor/lib/libchromatix_ov2680_5987fhq_default_video.so \
